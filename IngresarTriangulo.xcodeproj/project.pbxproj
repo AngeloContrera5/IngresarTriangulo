@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593C2A7926F675FD00EFC753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C2A7826F675FD00EFC753 /* AppDelegate.swift */; };
+		593C2A7B26F675FD00EFC753 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C2A7A26F675FD00EFC753 /* SceneDelegate.swift */; };
+		593C2A7D26F675FD00EFC753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C2A7C26F675FD00EFC753 /* ViewController.swift */; };
+		593C2A8026F675FD00EFC753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593C2A7E26F675FD00EFC753 /* Main.storyboard */; };
+		593C2A8226F6760200EFC753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593C2A8126F6760200EFC753 /* Assets.xcassets */; };
+		593C2A8526F6760200EFC753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593C2A8326F6760200EFC753 /* LaunchScreen.storyboard */; };
+		593C2A9026F6760200EFC753 /* IngresarTrianguloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C2A8F26F6760200EFC753 /* IngresarTrianguloTests.swift */; };
+		593C2A9B26F6760200EFC753 /* IngresarTrianguloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593C2A9A26F6760200EFC753 /* IngresarTrianguloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593C2A8C26F6760200EFC753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593C2A6D26F675FC00EFC753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593C2A7426F675FD00EFC753;
+			remoteInfo = IngresarTriangulo;
+		};
+		593C2A9726F6760200EFC753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593C2A6D26F675FC00EFC753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593C2A7426F675FD00EFC753;
+			remoteInfo = IngresarTriangulo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593C2A7526F675FD00EFC753 /* IngresarTriangulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IngresarTriangulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593C2A7826F675FD00EFC753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		593C2A7A26F675FD00EFC753 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		593C2A7C26F675FD00EFC753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		593C2A7F26F675FD00EFC753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		593C2A8126F6760200EFC753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593C2A8426F6760200EFC753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		593C2A8626F6760200EFC753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593C2A8B26F6760200EFC753 /* IngresarTrianguloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IngresarTrianguloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593C2A8F26F6760200EFC753 /* IngresarTrianguloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresarTrianguloTests.swift; sourceTree = "<group>"; };
+		593C2A9126F6760200EFC753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593C2A9626F6760200EFC753 /* IngresarTrianguloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IngresarTrianguloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593C2A9A26F6760200EFC753 /* IngresarTrianguloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresarTrianguloUITests.swift; sourceTree = "<group>"; };
+		593C2A9C26F6760200EFC753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593C2A7226F675FD00EFC753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C2A8826F6760200EFC753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C2A9326F6760200EFC753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593C2A6C26F675FC00EFC753 = {
+			isa = PBXGroup;
+			children = (
+				593C2A7726F675FD00EFC753 /* IngresarTriangulo */,
+				593C2A8E26F6760200EFC753 /* IngresarTrianguloTests */,
+				593C2A9926F6760200EFC753 /* IngresarTrianguloUITests */,
+				593C2A7626F675FD00EFC753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593C2A7626F675FD00EFC753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593C2A7526F675FD00EFC753 /* IngresarTriangulo.app */,
+				593C2A8B26F6760200EFC753 /* IngresarTrianguloTests.xctest */,
+				593C2A9626F6760200EFC753 /* IngresarTrianguloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593C2A7726F675FD00EFC753 /* IngresarTriangulo */ = {
+			isa = PBXGroup;
+			children = (
+				593C2A7826F675FD00EFC753 /* AppDelegate.swift */,
+				593C2A7A26F675FD00EFC753 /* SceneDelegate.swift */,
+				593C2A7C26F675FD00EFC753 /* ViewController.swift */,
+				593C2A7E26F675FD00EFC753 /* Main.storyboard */,
+				593C2A8126F6760200EFC753 /* Assets.xcassets */,
+				593C2A8326F6760200EFC753 /* LaunchScreen.storyboard */,
+				593C2A8626F6760200EFC753 /* Info.plist */,
+			);
+			path = IngresarTriangulo;
+			sourceTree = "<group>";
+		};
+		593C2A8E26F6760200EFC753 /* IngresarTrianguloTests */ = {
+			isa = PBXGroup;
+			children = (
+				593C2A8F26F6760200EFC753 /* IngresarTrianguloTests.swift */,
+				593C2A9126F6760200EFC753 /* Info.plist */,
+			);
+			path = IngresarTrianguloTests;
+			sourceTree = "<group>";
+		};
+		593C2A9926F6760200EFC753 /* IngresarTrianguloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				593C2A9A26F6760200EFC753 /* IngresarTrianguloUITests.swift */,
+				593C2A9C26F6760200EFC753 /* Info.plist */,
+			);
+			path = IngresarTrianguloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593C2A7426F675FD00EFC753 /* IngresarTriangulo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593C2A9F26F6760200EFC753 /* Build configuration list for PBXNativeTarget "IngresarTriangulo" */;
+			buildPhases = (
+				593C2A7126F675FD00EFC753 /* Sources */,
+				593C2A7226F675FD00EFC753 /* Frameworks */,
+				593C2A7326F675FD00EFC753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IngresarTriangulo;
+			productName = IngresarTriangulo;
+			productReference = 593C2A7526F675FD00EFC753 /* IngresarTriangulo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593C2A8A26F6760200EFC753 /* IngresarTrianguloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593C2AA226F6760200EFC753 /* Build configuration list for PBXNativeTarget "IngresarTrianguloTests" */;
+			buildPhases = (
+				593C2A8726F6760200EFC753 /* Sources */,
+				593C2A8826F6760200EFC753 /* Frameworks */,
+				593C2A8926F6760200EFC753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593C2A8D26F6760200EFC753 /* PBXTargetDependency */,
+			);
+			name = IngresarTrianguloTests;
+			productName = IngresarTrianguloTests;
+			productReference = 593C2A8B26F6760200EFC753 /* IngresarTrianguloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		593C2A9526F6760200EFC753 /* IngresarTrianguloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593C2AA526F6760200EFC753 /* Build configuration list for PBXNativeTarget "IngresarTrianguloUITests" */;
+			buildPhases = (
+				593C2A9226F6760200EFC753 /* Sources */,
+				593C2A9326F6760200EFC753 /* Frameworks */,
+				593C2A9426F6760200EFC753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593C2A9826F6760200EFC753 /* PBXTargetDependency */,
+			);
+			name = IngresarTrianguloUITests;
+			productName = IngresarTrianguloUITests;
+			productReference = 593C2A9626F6760200EFC753 /* IngresarTrianguloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593C2A6D26F675FC00EFC753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					593C2A7426F675FD00EFC753 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					593C2A8A26F6760200EFC753 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 593C2A7426F675FD00EFC753;
+					};
+					593C2A9526F6760200EFC753 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 593C2A7426F675FD00EFC753;
+					};
+				};
+			};
+			buildConfigurationList = 593C2A7026F675FC00EFC753 /* Build configuration list for PBXProject "IngresarTriangulo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593C2A6C26F675FC00EFC753;
+			productRefGroup = 593C2A7626F675FD00EFC753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593C2A7426F675FD00EFC753 /* IngresarTriangulo */,
+				593C2A8A26F6760200EFC753 /* IngresarTrianguloTests */,
+				593C2A9526F6760200EFC753 /* IngresarTrianguloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593C2A7326F675FD00EFC753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593C2A8526F6760200EFC753 /* LaunchScreen.storyboard in Resources */,
+				593C2A8226F6760200EFC753 /* Assets.xcassets in Resources */,
+				593C2A8026F675FD00EFC753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C2A8926F6760200EFC753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C2A9426F6760200EFC753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593C2A7126F675FD00EFC753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593C2A7D26F675FD00EFC753 /* ViewController.swift in Sources */,
+				593C2A7926F675FD00EFC753 /* AppDelegate.swift in Sources */,
+				593C2A7B26F675FD00EFC753 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C2A8726F6760200EFC753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593C2A9026F6760200EFC753 /* IngresarTrianguloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593C2A9226F6760200EFC753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593C2A9B26F6760200EFC753 /* IngresarTrianguloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593C2A8D26F6760200EFC753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593C2A7426F675FD00EFC753 /* IngresarTriangulo */;
+			targetProxy = 593C2A8C26F6760200EFC753 /* PBXContainerItemProxy */;
+		};
+		593C2A9826F6760200EFC753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593C2A7426F675FD00EFC753 /* IngresarTriangulo */;
+			targetProxy = 593C2A9726F6760200EFC753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		593C2A7E26F675FD00EFC753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593C2A7F26F675FD00EFC753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		593C2A8326F6760200EFC753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593C2A8426F6760200EFC753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593C2A9D26F6760200EFC753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		593C2A9E26F6760200EFC753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593C2AA026F6760200EFC753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33W9NGCXUU;
+				INFOPLIST_FILE = IngresarTriangulo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contreras.app.IngresarTriangulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		593C2AA126F6760200EFC753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33W9NGCXUU;
+				INFOPLIST_FILE = IngresarTriangulo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contreras.app.IngresarTriangulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		593C2AA326F6760200EFC753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33W9NGCXUU;
+				INFOPLIST_FILE = IngresarTrianguloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contreras.app.IngresarTrianguloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IngresarTriangulo.app/IngresarTriangulo";
+			};
+			name = Debug;
+		};
+		593C2AA426F6760200EFC753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33W9NGCXUU;
+				INFOPLIST_FILE = IngresarTrianguloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contreras.app.IngresarTrianguloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IngresarTriangulo.app/IngresarTriangulo";
+			};
+			name = Release;
+		};
+		593C2AA626F6760200EFC753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33W9NGCXUU;
+				INFOPLIST_FILE = IngresarTrianguloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contreras.app.IngresarTrianguloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IngresarTriangulo;
+			};
+			name = Debug;
+		};
+		593C2AA726F6760200EFC753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33W9NGCXUU;
+				INFOPLIST_FILE = IngresarTrianguloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contreras.app.IngresarTrianguloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IngresarTriangulo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593C2A7026F675FC00EFC753 /* Build configuration list for PBXProject "IngresarTriangulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593C2A9D26F6760200EFC753 /* Debug */,
+				593C2A9E26F6760200EFC753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593C2A9F26F6760200EFC753 /* Build configuration list for PBXNativeTarget "IngresarTriangulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593C2AA026F6760200EFC753 /* Debug */,
+				593C2AA126F6760200EFC753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593C2AA226F6760200EFC753 /* Build configuration list for PBXNativeTarget "IngresarTrianguloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593C2AA326F6760200EFC753 /* Debug */,
+				593C2AA426F6760200EFC753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593C2AA526F6760200EFC753 /* Build configuration list for PBXNativeTarget "IngresarTrianguloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593C2AA626F6760200EFC753 /* Debug */,
+				593C2AA726F6760200EFC753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593C2A6D26F675FC00EFC753 /* Project object */;
+}
